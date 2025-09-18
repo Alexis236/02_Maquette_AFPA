@@ -385,13 +385,16 @@ footer a {
     align-content: center;
     flex-basis: 0;
     width: 100%;
-    margin-bottom: 5%;
+    margin: 5% 0% 5% 0%;
     
 }
 
 #contact section {
     width: 32%;
-    margin: 5% 2% 5% 2%;
+    padding: 2.5% 1% 2.5% 1%;
+    margin: 2.5% 1% 2.5% 1%;
+    border: black,1px,solid;
+    border-radius: 30px;
 }
 
 #infos {
