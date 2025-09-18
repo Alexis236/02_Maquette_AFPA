@@ -44,28 +44,45 @@
                     <input type="tel" id="tel">
             </section>
 
-            <section>
+            <section class="radio">
                     <h3>Situation</h3>
-                    <label for="situation"></label>
-                    <select id="situation" name="situation">
-                        <option value="demandeur emploi">Demandeur d'emploi</option>
-                        <option value="salarie en transition professionnelle">Salarié en transition professionnelle</option>
-                        <option value="autre">Autre</option>
-                    </select>
+                    
+                    <div>
+                        <input type="radio" id="demandeur emploi" name="situation" value="demandeur emploi">
+                        <label for="demandeur emploi">Demandeur emploi</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="salarie en transition professionnelle" name="situation" value="salarie en transition professionnelle">
+                        <label for="salarie en transition professionnelle">Salarié en transition professionnelle</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="autre" name="situation" value="autre">
+                        <label for="autre">Autre</label>
+                    </div>
             </section>
 
-            <section>
+            <section class="radio">
                     <h3>Modalités d'apprentissages</h3>
-                    <label for="modalites"></label>
-                    <select id="modalites" name="modalites">
-                        <option value="presentiel">En centre de formation (présentiel)</option>
-                        <option value="distance">100% à distance</option>
-                        <option value="alternance">En contrat d’alternance avec l’entreprise</option>
-                        <option value="sans">Sans préférence</option>
-                    </select>   
+
+                    <div>
+                        <input type="radio" id="presentiel" name="apprentissage" value="presentiel">
+                        <label for="presentiel">En centre de formation (présentiel)</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="distance" name="apprentissage" value="distance">
+                        <label for="distance">100% à distance</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="alternance" name="apprentissage" value="alternance">
+                        <label for="alternance">En contrat d’alternance avec l’entreprise</label>                    
+                    </div>
+                    <div>
+                        <input type="radio" id="sans" name="apprentissage" value="sans">
+                        <label for="sans">Sans préférence</label>
+                    </div>
             </section>
 
-            <section>
+            <section class="radio">
                     <h3>Région d'origine</h3>
                     <label for="region"></label>
                     <select id="region" name="region">

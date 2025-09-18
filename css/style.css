@@ -397,6 +397,11 @@ footer a {
     border-radius: 30px;
 }
 
+.radio {
+    display: flex;
+    flex-direction: column;
+}
+
 #infos {
     display: flex;
     flex-direction: column;
