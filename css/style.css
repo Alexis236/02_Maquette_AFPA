@@ -372,7 +372,10 @@ footer a {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    margin-bottom: 5%;
+    padding-bottom: 5%;
+    background-color: #86BD24;
+    margin: 10% 10% 10% 10%;
+    border-radius: 30px;
 }
 
 #contact {
@@ -381,8 +384,8 @@ footer a {
     justify-content: center;
     align-content: center;
     flex-basis: 0;
-    margin: 5% 10% 5% 10%;
-    width: 80%;
+    width: 100%;
+    margin-bottom: 5%;
     
 }
 
